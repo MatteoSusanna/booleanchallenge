@@ -1,0 +1,70 @@
+body {
+  background-image: url(background.jpg);
+  color: white;
+}
+
+.container{
+  width: 1000px;
+  height: 700px;
+  background: rgba(0,0,0,.6);
+  border-radius: 6px;
+}
+
+.container1{
+  width: 800px;
+  padding: 80px;
+}
+
+.container, .container1{
+  margin: auto;
+}
+
+.logo{
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.titolologo{
+  color: #00EE00;
+}
+
+.rigabutton{
+  background-color: #00EE00;
+  padding: 10px;
+}
+
+.rigabutton, .titolologo{
+  text-align: center;
+}
+
+.npersona {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.via, .npersona{
+  display: inline-block;
+}
+
+.rigacarica1{
+  background-color: orange;
+  color: orange;
+  width: 50%;
+}
+
+.rigacarica2{
+  background-color: #00EE00;
+  color: #00EE00;
+  width: 90%;
+}
+
+.rigacarica3{
+  background-color: Red;
+  color: Red;
+  width: 20%;
+}
+
+.rigacarica1, .rigacarica2, .rigacarica3{
+  border-radius: 4px;
+}
